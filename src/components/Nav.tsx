@@ -7,11 +7,11 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
+        {/* redirige a las partes */}
         <a href="#sobre-mi" className="text-2xl font-parisienne text-gray-900">
           Meralii
         </a>
 
-        {/* redirige a las partes */}
         <ul className="font-quicksand hidden md:flex space-x-10 text-gray-800 font-medium">
           <li>
             <a href="#educacion" className="hover:text-gray-600 font-quicksand">
