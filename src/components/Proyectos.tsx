@@ -9,17 +9,17 @@ import tailsUpImg2 from "../assets/imagenes/tailsUp2.png";
 const Proyectos = () => {
   return (
     <section id="proyectos" className="w-full py-10 px-4">
-      {/* Barra de título */}
+      {/* barra de titulo */}
       <div className="w-full bg-white py-6 border-y-2 border-gray-200 shadow-sm text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Proyectos</h2>
       </div>
 
-      {/* Contenedor principal */}
+      {/* cuadro translucido */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-white/50 backdrop-blur-sm rounded-lg shadow-md space-y-16 sm:space-y-20 lg:space-y-24">
         
-        {/* Proyecto SyncTeam */}
+        {/* prroyecto SyncTeam */}
         <div className="space-y-6 sm:space-y-8">
-          {/* Logo */}
+          {/* logo */}
           <div className="flex justify-center">
             <img
               src={syncTeamLogo}
@@ -28,7 +28,7 @@ const Proyectos = () => {
             />
           </div>
 
-          {/* Imágenes */}
+          {/* imagenes */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <img
               src={syncTeamImg1}
@@ -43,9 +43,9 @@ const Proyectos = () => {
           </div>
         </div>
 
-        {/* Proyecto TailsUp */}
+        {/* proyecto TailsUp */}
         <div className="space-y-6 sm:space-y-8">
-          {/* Logo más pequeño */}
+          {/* logo */}
           <div className="flex justify-center">
             <img
               src={tailsUpLogo}
@@ -54,7 +54,7 @@ const Proyectos = () => {
             />
           </div>
 
-          {/* Imágenes */}
+          {/* imagenes */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <img
               src={tailsUpImg1}

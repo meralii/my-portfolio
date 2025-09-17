@@ -6,14 +6,14 @@ const AboutMe = () => {
       id="sobre-mi" 
       className="max-w-6xl mx-auto px-6 pt-20 md:pt-28 pb-10 flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-40"
     >
-      {/* Caja de texto translúcida */}
+      {/* cuadro de texto translucido */}
       <div className="bg-white/50 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-md shadow-md max-w-lg">
-        {/* Título responsive */}
+        {/* titulo responsive */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-parisienne font-bold text-gray-900 mb-4 text-center md:text-left">
           Hey!
         </h2>
 
-        {/* Texto responsive */}
+        {/* texto responsive */}
         <p className="text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed text-justify font-quicksand">
           Soy Kelly Merali Rodríguez Reyna, desarrolladora de software apasionada 
           por el mundo del frontend. Me encanta diseñar interfaces atractivas, 
@@ -24,7 +24,7 @@ const AboutMe = () => {
         </p>
       </div>
 
-      {/* Foto circular */}
+      {/* foto circular */}
       <div className="flex-shrink-0 mt-6 md:mt-0">
         <img
           src={miFoto} 

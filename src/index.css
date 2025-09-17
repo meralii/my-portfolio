@@ -17,24 +17,10 @@
 
 
 body {
-  background-color: white; /* color de respaldo por si la imagen no carga */
+  background-color: white;
   background-image: url('./assets/imagenes/fondo.jpg');
-  background-size: cover;       /* la imagen cubre todo el fondo */
-  background-position: initial;  /* centra la imagen */
-  background-repeat: no-repeat; /* no repite la imagen */
+  background-size: cover;   
+  background-position: initial;  
+  background-repeat: no-repeat;
   font-family: 'Quicksand', sans-serif;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo con Parisienne */}
+        
         <a href="#sobre-mi" className="text-2xl font-parisienne text-gray-900">
           Meralii
         </a>
 
-        {/* Links en desktop */}
+        {/* redireccionamiento */}
         <ul className="font-quicksand hidden md:flex space-x-10 text-gray-800 font-medium">
           <li>
             <a href="#sobre-mi" className="hover:text-gray-600 font-quicksand">
@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Botón hamburguesa en móviles */}
+        {/* boton menu en celular */}
         <button
           className="md:hidden text-gray-800 text-2xl"
           onClick={() => setIsOpen(!isOpen)}
@@ -39,7 +39,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Menú desplegable móvil */}
+      {/* menu desplegable celular */}
       {isOpen && (
         <div className="md:hidden w-full bg-white shadow-md z-50 transition-all duration-300 font-quicksand">
           <ul className="flex flex-col space-y-4 p-6 text-gray-800 font-quicksand font-medium">

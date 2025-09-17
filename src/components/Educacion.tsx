@@ -34,14 +34,14 @@ export default function Educacion() {
       id="Educacion" 
       className="w-full flex flex-col items-center py-4 sm:py-6 md:py-8 px-4 sm:px-6 lg:px-8"
     >
-      {/* Barra de título */}
+      {/* barra de titulo */}
       <div className="w-full bg-white py-3 sm:py-4 md:py-5 border-y-2 border-gray-200 shadow-sm">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
           Formación académica
         </h2>
       </div>
 
-      {/* Contenedor de la lista */}
+      {/* cuadro translucido */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
