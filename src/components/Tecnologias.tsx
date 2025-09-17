@@ -35,7 +35,7 @@ export default function Tecnologias() {
       </div>
 
       {/* cuadro translucido */}
-      <div className="max-w-6xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-8">
+      <div className="w-screen -mx-4 sm:-mx-6 lg:-mx-8 bg-white py-6 border-y-2 border-gray-200 shadow-sm text-center">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 sm:gap-8 place-items-center">
           {skills.map((skill, index) => (
             <div 
