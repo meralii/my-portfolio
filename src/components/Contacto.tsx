@@ -8,7 +8,7 @@ export default function Contacto() {
       className="w-full py-12 px-4 sm:px-6 lg:px-8"
     >
       {/* titulo */}
-      <div className="w-screen -mx-4 sm:-mx-6 lg:-mx-8 bg-white py-4 border-y-2 border-gray-200 shadow-sm text-center mb-10">
+      <div className="w-full -mx-4 sm:-mx-6 lg:-mx-8 bg-white py-4 border-y-2 border-gray-200 shadow-sm text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Contáctame
         </h2>
