@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section 
       id="sobre-mi" 
-      className="max-w-6xl mx-auto px-6 py-10 sm:py-16 md:py-30 flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-40"
+      className="max-w-6xl mx-auto px-6 pt-20 md:pt-28 pb-10 flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-40"
     >
       {/* Caja de texto translúcida */}
       <div className="bg-white/50 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-md shadow-md max-w-lg">
