@@ -9,7 +9,7 @@ import tailsUpImg2 from "../assets/imagenes/tailsUp2.png";
 const Proyectos = () => {
   return (
     <section id="proyectos" className="w-full py-10 px-4">
-      {/* barra de titulo */}
+      {/* titulo */}
       <div className="w-full bg-white py-6 border-y-2 border-gray-200 shadow-sm text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Proyectos</h2>
       </div>
@@ -19,7 +19,7 @@ const Proyectos = () => {
         
         {/* prroyecto SyncTeam */}
         <div className="space-y-6 sm:space-y-8">
-          {/* logo */}
+          
           <div className="flex justify-center">
             <img
               src={syncTeamLogo}
@@ -28,16 +28,15 @@ const Proyectos = () => {
             />
           </div>
 
-          {/* imagenes */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <img
               src={syncTeamImg1}
-              alt="SyncTeam vista 1"
+              alt="SyncTeam1"
               className="rounded-xl shadow-md w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src={syncTeamImg2}
-              alt="SyncTeam vista 2"
+              alt="SyncTeam2"
               className="rounded-xl shadow-md w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>
@@ -45,7 +44,7 @@ const Proyectos = () => {
 
         {/* proyecto TailsUp */}
         <div className="space-y-6 sm:space-y-8">
-          {/* logo */}
+          
           <div className="flex justify-center">
             <img
               src={tailsUpLogo}
@@ -54,16 +53,15 @@ const Proyectos = () => {
             />
           </div>
 
-          {/* imagenes */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <img
               src={tailsUpImg1}
-              alt="TailsUp vista 1"
+              alt="TailsUp1"
               className="rounded-xl shadow-md w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src={tailsUpImg2}
-              alt="TailsUp vista 2"
+              alt="TailsUp2"
               className="rounded-xl shadow-md w-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>

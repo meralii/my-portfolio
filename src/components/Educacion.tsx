@@ -31,10 +31,10 @@ export default function Educacion() {
 
   return (
     <section 
-      id="Educacion" 
+      id="educacion" 
       className="w-full flex flex-col items-center py-4 sm:py-6 md:py-8 px-4 sm:px-6 lg:px-8"
     >
-      {/* barra de titulo */}
+      {/* titulo */}
       <div className="w-full bg-white py-3 sm:py-4 md:py-5 border-y-2 border-gray-200 shadow-sm">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
           Formación académica

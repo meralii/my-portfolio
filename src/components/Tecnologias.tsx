@@ -26,7 +26,7 @@ export default function Tecnologias() {
       id="Tecnologias" 
       className="w-full flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8"
     >
-      {/* barra de titulo */}
+      {/* titulo */}
       <div className="w-full bg-white py-4 border-y-2 border-gray-200 shadow-sm text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Tecnologías</h2>
         <p className="text-sm sm:text-base text-gray-700 mt-1 font-quicksand">
@@ -34,7 +34,7 @@ export default function Tecnologias() {
         </p>
       </div>
 
-      {/* cuadro translucido tecs */}
+      {/* cuadro translucido */}
       <div className="max-w-6xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 sm:gap-8 place-items-center">
           {skills.map((skill, index) => (
