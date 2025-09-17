@@ -1,5 +1,3 @@
-import React from "react";
-
 // Importa las imágenes
 import syncTeamLogo from "../assets/imagenes/syncTeam.png";
 import syncTeamImg1 from "../assets/imagenes/syncTeam1.png";
