@@ -1,4 +1,3 @@
-
 import { 
   FaReact, FaCss3Alt, FaPhp, FaVuejs, FaHtml5, 
   FaGitAlt, FaFigma, FaJs 
@@ -23,11 +22,11 @@ export default function Tecnologias() {
 
   return (
     <section 
-      id="Tecnologias" 
+      id="tecnologias" 
       className="w-full flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8"
     >
       {/* titulo */}
-      <div className="w-full bg-white py-4 border-y-2 border-gray-200 shadow-sm text-center">
+      <div className="w-screen -mx-4 sm:-mx-6 lg:-mx-8 bg-white py-4 border-y-2 border-gray-200 shadow-sm text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Tecnologías</h2>
         <p className="text-sm sm:text-base text-gray-700 mt-1 font-quicksand">
           Siempre estoy dispuesta a aprender más.

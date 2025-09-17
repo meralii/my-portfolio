@@ -47,7 +47,7 @@ export default function Educacion() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="max-w-5xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-1 sm:mt-4 md:mt-10 font-quicksand"
+        className="max-w-5xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-6 md:mt-10 font-quicksand"
       >
         <div className="space-y-6">
           {estudios.map((item, index) => (
