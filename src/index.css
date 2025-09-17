@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+
+
+.font-quicksand, body , p  ,a {
+  font-family: 'Quicksand', sans-serif, Medium;
+}
+
+.font-parisienne,h1,h2 {
+  font-family: 'Parisienne', cursive;
+}
+
+
+body {
+  background-color: white; /* color de respaldo por si la imagen no carga */
+  background-image: url('./assets/imagenes/fondo.jpg');
+  background-size: cover;       /* la imagen cubre todo el fondo */
+  background-position: initial;  /* centra la imagen */
+  background-repeat: no-repeat; /* no repite la imagen */
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
