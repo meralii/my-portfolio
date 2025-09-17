@@ -31,7 +31,7 @@ export default function Educacion() {
 
   return (
     <section 
-      id="Educacion" 
+      id="educacion" 
       className="w-full flex flex-col items-center py-4 sm:py-6 md:py-8 px-4 sm:px-6 lg:px-8"
     >
       {/* titulo */}
