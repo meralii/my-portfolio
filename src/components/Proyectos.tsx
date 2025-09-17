@@ -10,7 +10,7 @@ const Proyectos = () => {
   return (
     <section id="proyectos" className="w-full py-10 px-4">
       {/* titulo */}
-      <div className="w-screen -mx-4 sm:-mx-6 lg:-mx-8 bg-white py-6 border-y-2 border-gray-200 shadow-sm text-center">
+      <div className="w-full bg-white py-6 border-y-2 border-gray-200 shadow-sm text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Proyectos</h2>
       </div>
 
