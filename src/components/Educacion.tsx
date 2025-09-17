@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 export default function Educacion() {
@@ -33,10 +32,10 @@ export default function Educacion() {
   return (
     <section 
       id="Educacion" 
-      className="w-full flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8"
+      className="w-full flex flex-col items-center py-4 sm:py-6 md:py-8 px-4 sm:px-6 lg:px-8"
     >
-      {/* Barra de título con separación */}
-      <div className="w-full bg-white py-5 border-y-2 border-gray-200 shadow-sm">
+      {/* Barra de título */}
+      <div className="w-full bg-white py-3 sm:py-4 md:py-5 border-y-2 border-gray-200 shadow-sm">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
           Formación académica
         </h2>
@@ -48,7 +47,7 @@ export default function Educacion() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="max-w-5xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-6 sm:mt-10 font-quicksand"
+        className="max-w-5xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-1 sm:mt-4 md:mt-10 font-quicksand"
       >
         <div className="space-y-6">
           {estudios.map((item, index) => (

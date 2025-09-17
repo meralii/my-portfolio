@@ -1,4 +1,3 @@
-// Importa las imágenes
 import syncTeamLogo from "../assets/imagenes/syncTeam.png";
 import syncTeamImg1 from "../assets/imagenes/syncTeam1.png";
 import syncTeamImg2 from "../assets/imagenes/syncTeam2.png";
@@ -46,12 +45,12 @@ const Proyectos = () => {
 
         {/* Proyecto TailsUp */}
         <div className="space-y-6 sm:space-y-8">
-          {/* Logo */}
+          {/* Logo más pequeño */}
           <div className="flex justify-center">
             <img
               src={tailsUpLogo}
               alt="Tails Up"
-              className="h-12 sm:h-16 md:h-20 lg:h-24 object-contain"
+              className="h-8 sm:h-12 md:h-14 lg:h-16 object-contain"
             />
           </div>
 
@@ -76,5 +75,3 @@ const Proyectos = () => {
 };
 
 export default Proyectos;
-
-
