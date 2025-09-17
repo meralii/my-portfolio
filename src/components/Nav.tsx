@@ -44,7 +44,7 @@ const Navbar = () => {
           <ul className="flex flex-col space-y-4 p-6 text-gray-800 font-quicksand font-medium">
             <li>
               <a
-                href="#Educacion"
+                href="#educacion"
                 className="hover:text-gray-600 font-quicksand"
                 onClick={() => setIsOpen(false)}
               >
