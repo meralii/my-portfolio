@@ -21,12 +21,12 @@ const Contacto = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-gray-900 text-base sm:text-lg">
           <div className="flex items-center gap-3">
             <FaEnvelope className="text-xl sm:text-2xl" />
-            <span className="break-words text-center md:text-left">
+            <span className="break-words text-center md:text-left font-quicksand">
               kellymrr18@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-3">
-            <FaPhone className="text-xl sm:text-2xl" />
+            <FaPhone className="text-xl sm:text-2xl font-quicksand" />
             <span>755 108 2854</span>
           </div>
         </div>

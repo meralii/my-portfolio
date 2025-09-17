@@ -48,7 +48,7 @@ export default function Educacion() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="max-w-5xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-6 sm:mt-10"
+        className="max-w-5xl w-full bg-white/50 backdrop-blur-md shadow-lg rounded-xl p-4 sm:p-6 md:p-8 mt-6 sm:mt-10 font-quicksand"
       >
         <div className="space-y-6">
           {estudios.map((item, index) => (
@@ -64,7 +64,7 @@ export default function Educacion() {
                 <h3 className="text-base sm:text-lg md:text-xl font-semibold">
                   {item.instituto}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <p className="text-sm sm:text-base text-gray-700 font-quicksand">
                   {item.detalle}
                 </p>
               </div>

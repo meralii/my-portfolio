@@ -29,7 +29,7 @@ export default function Tecnologias() {
       {/* Barra de título con separación */}
       <div className="w-full bg-white py-4 border-y-2 border-gray-200 shadow-sm text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Tecnologías</h2>
-        <p className="text-sm sm:text-base text-gray-700 mt-1">
+        <p className="text-sm sm:text-base text-gray-700 mt-1 font-quicksand">
           Siempre estoy dispuesta a aprender más.
         </p>
       </div>
@@ -43,7 +43,7 @@ export default function Tecnologias() {
               className="flex flex-col items-center text-center transition-transform transform hover:scale-110"
             >
               {skill.icon}
-              <p className="mt-2 text-xs sm:text-sm md:text-base font-medium">
+              <p className="mt-2 text-xs sm:text-sm md:text-base font-medium font-quicksand">
                 {skill.name}
               </p>
             </div>

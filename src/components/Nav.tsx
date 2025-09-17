@@ -14,17 +14,17 @@ const Navbar = () => {
         {/* Links en desktop */}
         <ul className="font-quicksand hidden md:flex space-x-10 text-gray-800 font-medium">
           <li>
-            <a href="#sobre-mi" className="hover:text-gray-600">
+            <a href="#sobre-mi" className="hover:text-gray-600 font-quicksand">
               Sobre mi
             </a>
           </li>
           <li>
-            <a href="#proyectos" className="hover:text-gray-600">
+            <a href="#proyectos" className="hover:text-gray-600 font-quicksand">
               Proyectos
             </a>
           </li>
           <li>
-            <a href="#contacto" className="hover:text-gray-600">
+            <a href="#contacto" className="hover:text-gray-600 font-quicksand">
               Contacto
             </a>
           </li>
@@ -41,12 +41,12 @@ const Navbar = () => {
 
       {/* Menú desplegable móvil */}
       {isOpen && (
-        <div className="md:hidden w-full bg-white shadow-md z-50 transition-all duration-300">
-          <ul className="flex flex-col space-y-4 p-6 text-gray-800 font-medium">
+        <div className="md:hidden w-full bg-white shadow-md z-50 transition-all duration-300 font-quicksand">
+          <ul className="flex flex-col space-y-4 p-6 text-gray-800 font-quicksand font-medium">
             <li>
               <a
                 href="#Educacion"
-                className="hover:text-gray-600"
+                className="hover:text-gray-600 font-quicksand"
                 onClick={() => setIsOpen(false)}
               >
                 Sobre mi
@@ -55,7 +55,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#proyectos"
-                className="hover:text-gray-600"
+                className="hover:text-gray-600 font-quicksand"
                 onClick={() => setIsOpen(false)}
               >
                 Proyectos
@@ -64,7 +64,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#contacto"
-                className="hover:text-gray-600"
+                className="hover:text-gray-600 font-quicksand"
                 onClick={() => setIsOpen(false)}
               >
                 Contacto

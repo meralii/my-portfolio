@@ -14,7 +14,7 @@ const AboutMe = () => {
         </h2>
 
         {/* Texto responsive */}
-        <p className="text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed text-justify">
+        <p className="text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed text-justify font-quicksand">
           Soy Kelly Merali Rodríguez Reyna, desarrolladora de software apasionada 
           por el mundo del frontend. Me encanta diseñar interfaces atractivas, 
           funcionales y llevarlas a la realidad mediante código limpio y eficiente. 
