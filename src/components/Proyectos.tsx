@@ -15,7 +15,7 @@ const Proyectos = () => {
       </div>
 
       {/* cuadro translucido */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-white/50 backdrop-blur-sm rounded-lg shadow-md space-y-16 sm:space-y-20 lg:space-y-24">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 mt-8 bg-white/50 backdrop-blur-sm rounded-lg shadow-md space-y-16 sm:space-y-20 lg:space-y-24">
         
         {/* prroyecto SyncTeam */}
         <div className="space-y-6 sm:space-y-8">
