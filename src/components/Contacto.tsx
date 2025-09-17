@@ -18,7 +18,7 @@ const Contacto = () => {
       <div className="max-w-3xl mx-auto px-6 py-10 bg-white/50 backdrop-blur-sm rounded-lg shadow-md space-y-10">
         
         {/* Correo y teléfono */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-gray-900 text-base sm:text-lg">
+        <div className="font-quicksand flex flex-col md:flex-row justify-center items-center gap-6 text-gray-900 text-base sm:text-lg">
           <div className="flex items-center gap-3">
             <FaEnvelope className="text-xl sm:text-2xl" />
             <span className="break-words text-center md:text-left font-quicksand">
